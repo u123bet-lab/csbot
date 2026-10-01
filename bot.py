@@ -40,10 +40,30 @@ FAQ = {
 
 def main_keyboard() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup([
-        [InlineKeyboardButton("🌐 Work Website", url="https://658pay.vip"),],
-        [InlineKeyboardButton("📢 Join TG Channel", url="https://t.me/DNYXW006"),],],
-        [InlineKeyboardButton("💬 Contact Support", url="https://t.me/ID658pay")],
-        [InlineKeyboardButton("📱 Download APP", url="https://bittaro.net/#/?invite=1smwQMN"),],
+        [
+            InlineKeyboardButton(
+                "🌐 Work Website",
+                url="https://658pay.vip"
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                "📢 Join TG Channel",
+                url="https://t.me/DNYXW006"
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                "💬 Contact Support",
+                url="https://t.me/ID658pay"
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                "📱 Download APP",
+                url="https://bittaro.net/#/?invite=1smwQMN"
+            )
+        ],
     ])
 
 
