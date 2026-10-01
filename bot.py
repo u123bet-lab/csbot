@@ -54,14 +54,8 @@ def main_keyboard() -> InlineKeyboardMarkup:
         ],
         [
             InlineKeyboardButton(
-                "💬 Contact Support",
-                url="https://t.me/ID658pay"
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                "📱 Download APP",
-                url="https://bittaro.net/#/?invite=1smwQMN"
+                "👥 Official Community",
+                url="https://t.me/work_658pay"
             )
         ],
     ])
